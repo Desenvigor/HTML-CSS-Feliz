@@ -22,6 +22,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    border-bottom: 10px solid $color-black-first;
     
     &__image{
         height: 60px;
@@ -47,7 +48,7 @@ body{
             }
         }
 
-        #button{
+        .button{
             display: inline-block;
             background-color: $color-first;
             height: 60px;
@@ -61,6 +62,79 @@ body{
                 box-shadow: 10px 10px 0 $color-black-first;
                 transition: 500ms ;
                 color: $color-black-first;
+            }
+        }
+
+    }
+}
+
+.main{
+    
+    .banner {
+        display: flex;
+        position: relative;
+
+        &__imgPixel{
+            position: absolute;
+            border-right: 5px solid $color-black-first;
+        }
+
+        &__imgNormal{
+            position: absolute;
+        }
+
+        &__title{
+            padding: 100px 60px;
+            position: absolute;
+        }
+
+        &__headers{
+            padding: 60px;
+            background-color: $color-black-second;
+            text-align: center;
+            box-shadow: 15px 15px $color-black-first;
+        }
+
+        &__h1{
+            font-size: 40px;
+            font-family: 'Press Start 2P', cursive;
+            color: $color-first;
+            text-shadow: 4px 4px $color-black-first;
+        }
+
+        &__h2{
+            margin-top: 28px;
+            font-size: 30px;
+            font-family: 'Press Start 2P', cursive;
+            color: $color-third;
+            text-shadow: 4px 4px $color-black-first;
+        }
+
+        &__buttons{
+
+            display: flex;
+            justify-content: space-around;
+
+            .button{
+                display: inline-flex;
+                justify-content: space-between;
+                background-color: $color-first;
+                text-decoration: none;
+                color: $color-third;
+                height: 60px;
+                line-height: 60px;
+                padding: 0 20px;
+                margin-right: 0;
+                margin-top: 38px;
+                box-shadow: 5px 5px 0 $color-black-first;
+    
+                &:hover{
+                    background-color: $color-second;
+                    box-shadow: 10px 10px 0 $color-black-first;
+                    transition: 500ms ;
+                    color: $color-black-first;
+                }
+    
             }
         }
 
