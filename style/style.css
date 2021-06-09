@@ -107,4 +107,16 @@ body {
   color: #000000;
 }
 
+.div__skills .banner {
+  background-image: url("");
+  background-color: #ff4d00;
+}
+.div__skills__h2 {
+  margin-top: 28px;
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+  color: #FFFFFF;
+  text-shadow: 4px 4px #000000;
+}
+
 /*# sourceMappingURL=style.css.map */
