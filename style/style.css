@@ -51,22 +51,20 @@ body {
 }
 
 .main .banner {
+  box-sizing: border-box;
   display: flex;
-  position: relative;
-}
-.main .banner__imgPixel {
-  position: absolute;
-  border-right: 5px solid #000000;
-}
-.main .banner__imgNormal {
-  position: absolute;
+  background-image: url("../assets/img/photo-banner.png");
+  background-repeat: no-repeat;
+  height: 45rem;
+  background-size: 100%;
+  border-bottom: 10px solid #000000;
 }
 .main .banner__title {
-  padding: 100px 60px;
-  position: absolute;
+  padding-top: 100px;
+  padding-left: 60px;
 }
 .main .banner__headers {
-  padding: 60px;
+  padding: 42px 40px;
   background-color: #3A4042;
   text-align: center;
   box-shadow: 15px 15px #000000;
@@ -89,8 +87,6 @@ body {
   justify-content: space-around;
 }
 .main .banner__buttons .button {
-  display: inline-flex;
-  justify-content: space-between;
   background-color: #ff4d00;
   text-decoration: none;
   color: #FFFFFF;

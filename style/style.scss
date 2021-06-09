@@ -71,25 +71,22 @@ body{
 .main{
     
     .banner {
+        box-sizing: border-box;
         display: flex;
-        position: relative;
+        background-image: url("../assets/img/photo-banner.png");
+        background-repeat: no-repeat;
+        height: 45rem;
+        background-size: 100%;
+        border-bottom: 10px solid $color-black-first;
 
-        &__imgPixel{
-            position: absolute;
-            border-right: 5px solid $color-black-first;
-        }
-
-        &__imgNormal{
-            position: absolute;
-        }
 
         &__title{
-            padding: 100px 60px;
-            position: absolute;
+            padding-top: 100px;
+            padding-left: 60px;
         }
 
         &__headers{
-            padding: 60px;
+            padding:42px 40px;
             background-color: $color-black-second;
             text-align: center;
             box-shadow: 15px 15px $color-black-first;
@@ -116,8 +113,6 @@ body{
             justify-content: space-around;
 
             .button{
-                display: inline-flex;
-                justify-content: space-between;
                 background-color: $color-first;
                 text-decoration: none;
                 color: $color-third;
