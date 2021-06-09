@@ -38,6 +38,12 @@ body{
             margin-right: 30px;
             text-decoration: none;
             color: $color-third;
+
+            &:hover{
+                &::before{
+                    background-color: $color-second;
+                }
+            }
             
             &::before{
                 content: "";
