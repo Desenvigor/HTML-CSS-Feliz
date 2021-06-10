@@ -124,8 +124,54 @@ body {
   color: #FFFFFF;
   margin-top: 38px;
 }
-.main .div__skills {
+.main .skills {
   background-color: #ff4d00;
+  flex-direction: column;
+  align-items: center;
+}
+.main .skills__h2 {
+  margin-top: 50px;
+}
+.main .skills__itens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.main .skills__img {
+  width: 90px;
+}
+.main .skills__info {
+  display: flex;
+  flex-direction: column;
+}
+.main .skills__item {
+  width: 30%;
+  display: flex;
+  margin-top: 38px;
+  margin-left: 100px;
+}
+.main .skills__itemHeader {
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: "Press Start 2P", cursive;
+  color: #FFFFFF;
+  text-shadow: 4px 4px #000000;
+}
+.main .skills__progress {
+  margin-left: 20px;
+  margin-top: 16px;
+  width: 320px;
+  height: 40px;
+  -webkit-appearance: none;
+}
+.main .skills__progress::-webkit-progress-bar {
+  background-color: #FFFFFF;
+  border: 5px solid #000000;
+}
+.main .skills__progress::-webkit-progress-value {
+  background-color: #42352F;
 }
 
 /*# sourceMappingURL=style.css.map */

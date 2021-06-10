@@ -4,6 +4,7 @@ $color-third: #FFFFFF;
 $color-black-first: #000000;
 $color-black-second: #3A4042;
 $color-black-third: #828282;
+$color-progress-bar: #42352F;
 
 
 @import 'components/body';
@@ -29,10 +30,6 @@ $color-black-third: #828282;
 
     }
 
-    .div__skills{
-        background-color: $color-first;
-        
-
-    }
+    @import 'skills/skills';
 
 }
