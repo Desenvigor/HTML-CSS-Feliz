@@ -1,0 +1,13 @@
+&__buttons{
+
+    display: flex;
+    justify-content: space-around;
+
+    @import '../components/button';
+
+    .button {
+        text-decoration: none;
+        color: $color-third;
+        margin-top: 38px;
+    }
+}

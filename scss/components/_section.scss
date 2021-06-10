@@ -1,0 +1,8 @@
+.section {
+    box-sizing: border-box;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 45rem;
+    background-size: 100%;
+    border-bottom: 10px solid $color-black-first;
+}

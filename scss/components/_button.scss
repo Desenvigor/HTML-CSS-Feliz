@@ -1,0 +1,16 @@
+.button{
+    display: inline-block;
+    background-color: $color-first;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    margin-right: 0;
+    box-shadow: 5px 5px 0 $color-black-first;
+
+    &:hover{
+        background-color: $color-second;
+        box-shadow: 10px 10px 0 $color-black-first;
+        transition: 500ms ;
+        color: $color-black-first;
+    }
+}

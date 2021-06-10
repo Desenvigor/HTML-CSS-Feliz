@@ -1,0 +1,38 @@
+$color-first: #ff4d00;
+$color-second: #ffc100;
+$color-third: #FFFFFF;
+$color-black-first: #000000;
+$color-black-second: #3A4042;
+$color-black-third: #828282;
+
+
+@import 'components/body';
+
+@import 'components/button';
+
+@import 'navbar/header-menu';
+
+.main{
+
+    @import 'components/section';
+    
+    .banner {
+        background-image: url("../assets/img/photo-banner.png");
+
+        @import 'banner/header-box';
+
+        @import 'banner/first-header';
+
+        @import 'banner/second-header';
+
+        @import 'banner/banner-button';
+
+    }
+
+    .div__skills{
+        background-color: $color-first;
+        
+
+    }
+
+}

@@ -4,8 +4,20 @@ body {
   font-family: "Fira Code";
 }
 
-.container {
-  background-color: #3A4042;
+.button {
+  display: inline-block;
+  background-color: #ff4d00;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  margin-right: 0;
+  box-shadow: 5px 5px 0 #000000;
+}
+.button:hover {
+  background-color: #ffc100;
+  box-shadow: 10px 10px 0 #000000;
+  transition: 500ms;
+  color: #000000;
 }
 
 .header {
@@ -14,6 +26,7 @@ body {
   justify-content: space-between;
   padding: 10px 20px;
   border-bottom: 10px solid #000000;
+  background-color: #3A4042;
 }
 .header__image {
   height: 60px;
@@ -53,14 +66,16 @@ body {
   color: #000000;
 }
 
-.main .banner {
+.main .section {
   box-sizing: border-box;
   display: flex;
-  background-image: url("../assets/img/photo-banner.png");
   background-repeat: no-repeat;
   height: 45rem;
   background-size: 100%;
   border-bottom: 10px solid #000000;
+}
+.main .banner {
+  background-image: url("../assets/img/photo-banner.png");
 }
 .main .banner__title {
   padding-top: 100px;
@@ -90,14 +105,12 @@ body {
   justify-content: space-around;
 }
 .main .banner__buttons .button {
+  display: inline-block;
   background-color: #ff4d00;
-  text-decoration: none;
-  color: #FFFFFF;
   height: 60px;
   line-height: 60px;
   padding: 0 20px;
   margin-right: 0;
-  margin-top: 38px;
   box-shadow: 5px 5px 0 #000000;
 }
 .main .banner__buttons .button:hover {
@@ -106,17 +119,13 @@ body {
   transition: 500ms;
   color: #000000;
 }
-
-.div__skills .banner {
-  background-image: url("");
-  background-color: #ff4d00;
-}
-.div__skills__h2 {
-  margin-top: 28px;
-  font-size: 30px;
-  font-family: "Press Start 2P", cursive;
+.main .banner__buttons .button {
+  text-decoration: none;
   color: #FFFFFF;
-  text-shadow: 4px 4px #000000;
+  margin-top: 38px;
+}
+.main .div__skills {
+  background-color: #ff4d00;
 }
 
 /*# sourceMappingURL=style.css.map */
